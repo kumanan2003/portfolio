@@ -1,0 +1,273 @@
+ /* #mypic {
+            height: 190px;
+            width: 190px; */
+            /* border: 1px solid; */
+        /* } */
+
+        /* .col-9 { */
+            /* margin-left: 90px;
+        margin-bottom: 70px; */
+            /* padding-left: 120px; */
+        /* } */
+        /* #nav1 {
+            padding: 15px 20px;
+            border-radius: 20px;
+            transition: 1.5s all;
+        }
+        #nav1 :hover {
+            background-color: chocolate;
+        } */
+        /* #navi {
+            transition: 5.5s all;
+            border-radius: 15px;
+            margin-left: 5px;
+            /* display:flex; */
+            /* justify-content: space-between;
+            align-items: center; */
+        /* #navi:hover {
+            background-color: rgb(57, 38, 165);
+            border: 1px solid white;
+            display: flex;
+            gap:50px;
+            align-items: center; */
+        :root {
+            --primary-color: #edf2fc;
+            --secondary-color: #212121;
+        }
+        .dark-theme {
+            --primary-color: #000106;
+            --secondary-color: #fff;
+        }
+        .card {
+            height: 300px;
+            width: 300px;
+        }
+        body {
+            position: relative;
+            font-family: sans-serif;
+            background: var(--primary-color);
+            /* background-color: coral; */
+        }
+        #vem {
+            height: 350px;
+            width: 350px;
+            margin-top: 40px;
+            border-radius: 20px;
+        }
+        #vmp {
+            /* margin-top: 80px; */
+            border-radius: 20px;
+        }
+        #careerguidance {
+            height: 320px;
+            width: 480px;
+            margin-left: 10px;
+            margin-top: 110px;
+        }
+        /* #ed {
+            height: 300px;
+            width: 1100px;
+        } */
+        table {
+            border: 2px solid black;
+            width: 100%;
+            height: 240px;
+            margin-top: 40px;
+            /* padding: 80%; */
+            /* padding: 150px; */
+        }
+        tr {
+            border: 1px solid black;
+        }
+        th {
+            border: 1px solid;
+            padding-left: 70px;
+            
+        }
+        td {
+            border: 1px solid;
+            padding-left: 30px;
+        }
+        .th2 {
+            padding-left: 200px;
+        }
+        .th3 {
+            padding-left: 20px;
+        }
+        .percentage {
+            padding-left: 70px;
+        }
+        .percentagemarc {
+            padding-left: 80px;
+        }
+        #web {
+             background-color: lightgray;
+            /* margin-left: 400px; */
+        }
+        #website {
+            margin-left: 400px;
+            /* background-color: lightgray; */
+        }
+        #websites {
+            margin-left: 400px;
+        }
+        footer {
+            background-color: brown;
+            text-align: center;
+            margin-top: 100px;
+            padding: 10px;
+        }
+        #foot {
+            margin-top: 30px;
+        }
+        .container-profile {
+            /* height: 280px; */
+            width: 600px;
+            color: rgb(255, 255, 255);
+            background-color: white;
+            border-radius: 10px;
+            /* margin-right: 40px; */
+            /* padding: 0px; */
+            /* margin-left: 100px; */
+            /* margin-top: 30px; */
+        }
+        #myname {
+            /* margin-left: 130px; */
+            /* margin-top: 50px; */
+            padding-top: 40px;
+            /* padding-left: 200px; */
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+        /* #pno {
+            height: 30px;
+            margin-top: 3px;
+            margin-left: 120px;
+            border-right: 2px solid black;
+        }
+        #git {
+            height: 30px;
+            margin-top: 3px;
+            margin-left: 0px;
+            margin-right: 3px;
+            border-right: 2px solid black;
+        } */
+         #mypara {
+            /* margin-left: 20px; */
+            color: rgb(0, 0, 0);
+            height: 120px;
+            width: 565px;
+            text-align: center;
+            margin-left: 30px;
+            /* padding-left: 70px; */
+            /* background-color: white; */
+         }
+         #backimg {
+            background-image: url(desktop.jpg);
+            height: 300px;
+            width: 700px;
+            margin-left: 30px;
+            /* margin-top: 200px; */
+         }
+         /* nav {
+            display: block;
+            float: right;
+         } */
+         /* #mycontact {
+            float: right;
+         } */
+        #skil {
+            /* border: 1px solid; */
+            border-radius: 10px;
+            height: 200px;
+            /* display: flex; */
+            text-align: center;
+            /* gap: 50px; */
+            /* justify-content: space-around; */
+            margin-right: 90px;
+            background-color: skyblue;
+            /* margin-top: 14px; */
+        }
+        #course {
+            margin-top: 60px;
+        }
+        #career {
+            height: 300px;
+            width: 300px;
+            border-radius: 20px;
+        }
+        #firstpara {
+            border-radius: 40px;
+        }
+        .chart {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            margin-top: 30px;
+            background: conic-gradient(
+                yellow  0%  30%,
+                blue   30%  50%,
+                grey   50%  70%,
+            dodgerblue 70%  80%,
+            darkorchid 80%  100%
+            )
+        }
+        #piechart {
+            color: var(--secondary-color);
+            background-color: aquamarine;
+            border-radius: 10px;
+            height: 400px;
+            /* margin-left: 90px; */
+        }
+        nav ul {
+            flex: 1;
+            text-align: right;
+        }
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 30px 30px;
+            /* color: var(--secondary-color); */
+            /* border-color: rgb(255, 255, 255); */
+        }
+        .navig {
+            position: relative;
+            /* background-color: var(--primary-color); */
+        }
+        /* .navig {
+            background-color: var(--secondary-color);
+        } */
+        /* nav ul li a {
+            color: var(--secondary-color);
+        } */
+        nav ul li a:hover {
+            border: 1px solid dodgerblue;
+            padding: 10px 15px;
+            border-radius: 10px;
+            transition: .9s all;
+            text-decoration: none;
+        }
+        #icon {
+            width: 20px;
+            color: var(--secondary-color);
+        }
+        #academicproject {
+            color: var(--secondary-color);
+        }
+        #contactme {
+            color: var(--secondary-color);
+        }
+        .keyskills {
+            color: var(--secondary-color);
+        }
+        #certificateachievements {
+            color: var(--secondary-color);
+        }
+        .navig {
+            color: var(--secondary-color);
+        }
+        @media only screen and (max-width:400px) {
+            body {
+            display: flex;
+        }
+    }
